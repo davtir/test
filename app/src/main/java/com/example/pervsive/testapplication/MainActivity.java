@@ -12,4 +12,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void onClick(View view) {
+        Toast.makeText(this, "Ciao", Toast.LENGTH_LONG).show();
+    }
 }
