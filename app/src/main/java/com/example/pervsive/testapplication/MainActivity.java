@@ -14,6 +14,6 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void onClick(View view) {
-        Toast.makeText(this, "Alex", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Alex modified aaa", Toast.LENGTH_LONG).show();
     }
 }
